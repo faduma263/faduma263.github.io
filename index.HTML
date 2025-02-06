@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos and Names</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            margin: 15px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .card h2 {
+            margin: 15px 0;
+            font-size: 18px;
+        }
+
+        .card p {
+            color: #555;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; margin-top: 20px;">Our Team</h1>
+
+    <div class="container">
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Person 1">
+            <h2>John Doe</h2>
+            <p>Web Developer</p>
+        </div>
+        <div class="card">
+            <img src="https://vinia.placeholder.com/200" alt="Person 2">
+            <h2>Jane Smith</h2>
+            <p>Designer</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Person 3">
+            <h2>Mike Johnson</h2>
+            <p>Project Manager</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Person 4">
+            <h2>Alice Brown</h2>
+            <p>Marketing Specialist</p>
+        </div>
+    </div>
+</body>
+</html>
